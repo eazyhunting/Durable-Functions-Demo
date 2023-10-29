@@ -22,6 +22,10 @@ There is an activity for each task. One to save the blob. One to set metadata on
 
 Other things not related to Azure Functions
 
+## Azure KeyVault
+
+We are using the appsettings.json file to store a reference to an Azure KeyVault secret. The Azure Function will retrieve this and store it as an environment variable.
+
 ## Test Console Applications
 - .NET Framework Console App
 - .NET Core Console App
