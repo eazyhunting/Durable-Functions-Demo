@@ -1,12 +1,5 @@
 ﻿using Models;
 using Newtonsoft.Json;
-using Polly;
-using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
-using System.Linq;
-using System.Net.Http;
-using System.Text;
 using System.Threading.Tasks;
 using Traceability;
 
@@ -23,9 +16,7 @@ namespace PollyFrameworkConsole
                 FileName = "TestFileFramework2.json"
             };
 
-            Logger.LogMethod(storageRequest);
-
-            Console.ReadLine();
+            await Logger.LogMethod(storageRequest);
         }
     }
 }

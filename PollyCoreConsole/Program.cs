@@ -1,5 +1,4 @@
-﻿using Polly;
-using Models;
+﻿using Models;
 using Newtonsoft.Json;
 using Traceability;
 
@@ -10,7 +9,6 @@ namespace PollyCoreConsole
         
         public static async Task Main(string[] args)
         {
-            
             var storageRequest = new StorageRequest
             {
                 ExecutionLog = JsonConvert.SerializeObject(new { Log = "This is test data." }),
@@ -21,7 +19,6 @@ namespace PollyCoreConsole
             await Logger.LogMethod(storageRequest);
 
             Console.ReadLine();
-
         }
     }
 }
