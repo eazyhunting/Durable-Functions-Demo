@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34004.107
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DurableFunctionsDemo", "DurableFunctionsDemo\DurableFunctionsDemo.csproj", "{E00FFFA9-624B-490B-9E8E-6B37E98947B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PollyCoreConsole", "PollyCoreConsole\PollyCoreConsole.csproj", "{0FF721BE-B3AB-4A37-AB87-5EFD742980CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csproj", "{AF315D13-9F75-44AF-82B3-AE21DB009968}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PollyFrameworkConsole", "PollyFrameworkConsole\PollyFrameworkConsole.csproj", "{6EAB5685-279D-447F-BDD2-2BEB4D058352}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Traceability", "Traceability\Traceability.csproj", "{EC26E174-B665-4100-A00E-632ECDA3DA4B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DurableFunctionApp1", "DurableFunctionApp1\DurableFunctionApp1.csproj", "{7DD4F55E-B0CF-480A-B111-9BA30D7C4DAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E00FFFA9-624B-490B-9E8E-6B37E98947B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E00FFFA9-624B-490B-9E8E-6B37E98947B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E00FFFA9-624B-490B-9E8E-6B37E98947B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E00FFFA9-624B-490B-9E8E-6B37E98947B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FF721BE-B3AB-4A37-AB87-5EFD742980CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FF721BE-B3AB-4A37-AB87-5EFD742980CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FF721BE-B3AB-4A37-AB87-5EFD742980CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FF721BE-B3AB-4A37-AB87-5EFD742980CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF315D13-9F75-44AF-82B3-AE21DB009968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF315D13-9F75-44AF-82B3-AE21DB009968}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF315D13-9F75-44AF-82B3-AE21DB009968}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF315D13-9F75-44AF-82B3-AE21DB009968}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EAB5685-279D-447F-BDD2-2BEB4D058352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EAB5685-279D-447F-BDD2-2BEB4D058352}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EAB5685-279D-447F-BDD2-2BEB4D058352}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EAB5685-279D-447F-BDD2-2BEB4D058352}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC26E174-B665-4100-A00E-632ECDA3DA4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC26E174-B665-4100-A00E-632ECDA3DA4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC26E174-B665-4100-A00E-632ECDA3DA4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC26E174-B665-4100-A00E-632ECDA3DA4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DD4F55E-B0CF-480A-B111-9BA30D7C4DAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DD4F55E-B0CF-480A-B111-9BA30D7C4DAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DD4F55E-B0CF-480A-B111-9BA30D7C4DAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DD4F55E-B0CF-480A-B111-9BA30D7C4DAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CADC09EE-8EFA-49AD-9AF7-BE922ADDC5FB}
+	EndGlobalSection
+EndGlobal
