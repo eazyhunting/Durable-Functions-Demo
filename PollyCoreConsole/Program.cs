@@ -10,9 +10,6 @@ namespace PollyCoreConsole
         
         public static async Task Main(string[] args)
         {
-            //var polly = Policy.Handle<Exception>()
-            //    .RetryAsync(3, (exception, retryCount, context) => 
-            //    Console.WriteLine($"try: {retryCount}, Exception: {exception.Message}"));
             
             var storageRequest = new StorageRequest
             {
@@ -22,13 +19,6 @@ namespace PollyCoreConsole
             };
 
             await Logger.LogMethod(storageRequest);
-
-            //using HttpClient client = new HttpClient();
-            //using HttpContent content = new StringContent(JsonConvert.SerializeObject(storageRequest));
-            
-
-            //var result = await polly.ExecuteAsync(
-            //    async () => await client.PostAsync("http://localhost:7058/api/UploadLogFileStarter", content));
 
             Console.ReadLine();
 
